@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Damion");
+@import url("https://fonts.googleapis.com/css2?family=Iceberg&display=swap");
+
+.header span {
+  font-size: 62px;
+  font-family: "Damion";
+  flex-basis: 262px;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  height: 90px;
+  width: 93%;
+  align-items: flex-end;
+}
+.header p {
+  flex-wrap: wrap;
+  font-size: 11px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  display: block;
+  margin-left: 15vh;
+  margin-top: -1%;
+}
+#Home :hover {
+  background-color: red;
+}
+#Products :hover {
+  background-color: red;
+}
+#Protect :hover {
+  background-color: red;
+}
+#Stocklists :hover {
+  background-color: red;
+}
+#Events :hover {
+  background-color: red;
+}
+#Reviews :hover {
+  background-color: red;
+}
+.container_forNav {
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  width: auto;
+  margin-top: 1%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  position: relative;
+}
+.nav_element {
+  text-align: center;
+}
+.container_forNav li {
+  flex-grow: 1;
+  list-style-type: none;
+}
+.container_forNav a {
+  color: grey;
+  padding: 01rem;
+  text-decoration: none;
+  border-right: 1px solid;
+  padding-right: 20%;
+}
+
+.container_forNav ul {
+  display: flex;
+}
+
+
+main img {
+  width: 100%;
+}
+
+.main p {
+  font-family: "Iceberg", cursive;
+  font-size: 30px;
+  font-weight: normal;
+}
+#price {
+  font-family: "Iceberg", cursive;
+  font-size: 25px;
+  font-weight: normal;
+  color: red;
+}
+#select-list {
+  width: 100px;
+  font-family: "Iceberg", cursive;
+  font-size: 20px;
+  font-weight: normal;
+  color: gray;
+}
+#main-text {
+  padding-bottom: 6vh;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.poll {
+  background-color: white;
+}
+.poll section {
+  position: relative;
+}
+#polloption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#pollresult {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#bottom-footer {
+  background-color: red;
+}
+#above-footer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-top: solid;
+}
+#reviews {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10%;
+  padding-top: 1%;
+  width: auto;
+}
+
+#Latest-News {
+  font-size: 30px;
+  display: block;
+  position: relative;
+  width: 260px;
+  margin-left: 11%;
+  color: #c5110b;
+}
+#Links-main {
+  margin-left: 10vh;
+}
+
+#paragraph {
+  display: block;
+  position: relative;
+  width: 200px;
+  margin-left: 8vh;
+}
+#links {
+  position: relative;
+  display: block;
+  width: 200px;
+  text-decoration: none;
+}
+#links-header {
+  font-size: 30px;
+}
+
+#link-2 {
+  margin-top: 10vh;
+}
+
+#link-3 {
+  margin-top: 10vh;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+#date {
+  color: #c5110b;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#news-3 {
+  margin-bottom: 10vh;
+}
+#bottom-footer {
+  display: flex;
+  flex-direction: column;
+}
+.Gallery {
+  column-span: all;
+  border-top: solid;
+  border-bottom: solid;
+  padding-top: 10px;
+}
+#Gallery-text {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#oil {
+  display: flex;
+  margin-right: 1vh;
+}
+#Bike-Oil {
+  margin-left: 20vh;
+}
+#Dry-Lubricant {
+  margin-left: 15vh;
+}
+#Wet-Lubricant {
+  margin-left: 17vh;
+}
+
+#Gallery-pictures {
+  display: flex;
+  padding-bottom: 20px;
+  margin: 0px;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#contact {
+  margin-right: 10vh;
+}
+body {
+  background-color: rgb(241, 236, 236);
+}
+
+#BikeOil {
+  width:40%;
+  margin-left: 25vh;
+  margin-top: -25vh;
+  padding-bottom: 10vh;
+ 
+}
+.SmallImages img {
+  width: 10%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 2vh;
+}
+#Similar-Products {
+  padding-bottom: 5vh;
+  font-family: 'Iceberg';
+}
+
+#ReviewIcon1 {
+  height:100px;
+}
+.product-reviews {
+  justify-content: center;
+
+}
+#product-reviews p {
+  width: 400px;
+  justify-content: space-around;
+  margin-left: 60vh;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+#Product-Title {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#Read-Reviews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#review-item {
+  column-span: all;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid;
+}
+
+#review-list h2 {
+  font-family:'Iceberg';
+}
+
+#review-button {
+  text-align: center;
+  border-radius: 8px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#review-button:hover {
+  background-color: white;
+  color: red;
+}
+
+#buy-button {
+  width: 250px;
+  text-align: center;
+  background-color: red;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding-top: 15px;
+}
+#buy-button:hover {
+  background-color: white;
+  color: red;
+}
+#buy-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
